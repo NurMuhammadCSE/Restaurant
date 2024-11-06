@@ -12,6 +12,15 @@ import f4 from "./images/pizza.png";
 import spoon from "./images/spoon.jpeg";
 import testimonial from "./images/testimonial.png";
 import Image from "./images/Image.png";
+import table from "./images/table.jpeg";
+import clock from "./images/1.png";
+import talk from "./images/2.png";
+import email from "./images/3.png";
+import location from "./images/4.png";
+import fb from "./images/fbbb.png";
+import li from "./images/ln2.png";
+import x from "./images/x2.png";
+import instagram from "./images/inst.png";
 
 const assets = {
   images: {
@@ -28,7 +37,16 @@ const assets = {
     f4,
     spoon,
     testimonial,
-    Image
+    Image,
+    table,
+    clock,
+    location,
+    talk,
+    email,
+    fb,
+    li,
+    x,
+    instagram,
   },
 };
 

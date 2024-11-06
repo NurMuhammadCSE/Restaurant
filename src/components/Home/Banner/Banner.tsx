@@ -4,8 +4,8 @@ import assets from "../../../assets";
 const Banner = () => {
   return (
     <section className="bg-[#b93329]  ">
-      <div className="md:h-[740px] px-6 md:px-[50px] flex overflow-hidden relative py-10 md:py-0">
-        <div className="w-full max-w-7xl flex flex-col md:flex-row items-start md:items-center gap-8">
+      <div className="md:h-[740px] px-6 md:px-[50px] flex justify-center overflow-hidden relative py-10 md:py-0">
+        <div className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-center md:items-center gap-8">
           {/* Left Side - Text Content */}
           <div className="flex md:w-1/2 flex-col gap-4 z-10 md:text-left">
             {/* Headline Text */}
