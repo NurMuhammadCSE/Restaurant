@@ -10,6 +10,8 @@ import f2 from "./images/f2.png";
 import f3 from "./images/f3.png";
 import f4 from "./images/pizza.png";
 import spoon from "./images/spoon.jpeg";
+import testimonial from "./images/testimonial.png";
+import Image from "./images/Image.png";
 
 const assets = {
   images: {
@@ -25,6 +27,8 @@ const assets = {
     f3,
     f4,
     spoon,
+    testimonial,
+    Image
   },
 };
 
