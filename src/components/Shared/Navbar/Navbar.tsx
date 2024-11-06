@@ -30,7 +30,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-[15px] font-medium hover:text-yellow-500"
+                className="text-[15px] font-medium "
               >
                 Home
               </a>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-[15px] font-medium hover:text-yellow-500"
+                className="text-[15px] font-medium "
               >
                 About
               </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-[15px] font-medium hover:text-yellow-500"
+                className="text-[15px] font-medium "
               >
                 Portfolio
               </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-[15px] font-medium hover:text-yellow-500"
+                className="text-[15px] font-medium "
               >
                 Clients
               </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-[15px] font-medium hover:text-yellow-500"
+                className="text-[15px] font-medium "
               >
                 Blog
               </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-[15px] font-medium hover:text-yellow-500"
+                className="text-[15px] font-medium "
               >
                 Contact
               </a>
@@ -112,7 +112,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-[15px] font-medium hover:text-yellow-500"
+              className="text-[15px] font-medium "
             >
               Home
             </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-[15px] font-medium hover:text-yellow-500"
+              className="text-[15px] font-medium "
             >
               About
             </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-[15px] font-medium hover:text-yellow-500"
+              className="text-[15px] font-medium "
             >
               Portfolio
             </a>
@@ -136,7 +136,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-[15px] font-medium hover:text-yellow-500"
+              className="text-[15px] font-medium "
             >
               Clients
             </a>
@@ -144,7 +144,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-[15px] font-medium hover:text-yellow-500"
+              className="text-[15px] font-medium "
             >
               Blog
             </a>
@@ -152,7 +152,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-[15px] font-medium hover:text-yellow-500"
+              className="text-[15px] font-medium "
             >
               Contact
             </a>
