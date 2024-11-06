@@ -6,7 +6,7 @@ const PopularFood = () => {
     <div>
       {/* Popular Food Items */}
       <div className="bg-[#fbf7f2]">
-        <section className="p-5 lg:p-28 font-sans w-full max-w-7xl px-4 lg:px-8 py-8 lg:py-16 mx-auto">
+        <section className="p-5 lg:p-28 h-[710px] font-sans w-full max-w-7xl px-4 lg:px-8 py-8 lg:py-16 mx-auto">
           {/* Section Header */}
           <div className="flex flex-col lg:flex-row justify-between items-center mb-10 lg:mb-20 gap-5 lg:gap-0">
             {/* Left Content: Header Text */}
