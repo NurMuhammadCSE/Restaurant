@@ -21,6 +21,10 @@ import fb from "./images/fbbb.png";
 import li from "./images/ln2.png";
 import x from "./images/x2.png";
 import instagram from "./images/inst.png";
+import fish from "./images/fish.jpeg";
+import cake from "./images/cake.jpeg";
+import burger from "./images/burger.jpeg";
+import quotation from "./images/quotation.svg";
 
 const assets = {
   images: {
@@ -47,6 +51,10 @@ const assets = {
     li,
     x,
     instagram,
+    fish,
+    cake,
+    burger,
+    quotation
   },
 };
 
