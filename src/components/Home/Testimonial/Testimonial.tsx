@@ -123,8 +123,7 @@ const Testimonial = () => {
                     <p>
                       This burger delivers everything you'd want from a classic
                       cheeseburger experience. The perfectly seasoned, juicy,
-                      and cooked to a nice medium, a smoky depth to each bite.
-                      .
+                      and cooked to a smoky depth to each bite.
                     </p>
                   </p>
                   <div className="flex items-center justify-between mt-28 md:mt-32 gap-4">
