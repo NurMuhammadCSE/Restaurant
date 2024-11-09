@@ -16,7 +16,7 @@ const About = () => {
             className="w-full max-w-[600px] h-auto object-cover"
           />
           <div className="absolute w-[160px] md:w-[200px] h-20 md:h-24 top-4 md:top-6 left-4 md:left-6 bg-white p-4 rounded-lg flex items-center gap-2 shadow-lg">
-            <div className="flex items-center justify-center w-12 h-12 md:w-[60px] md:h-[60px] text-black text-lg md:text-xl border-4 rounded-full border-yellow-300 font-bold">
+            <div className="flex items-center justify-center w-12 h-12 md:w-[60px] md:h-[60px] text-black text-lg md:text-xl border-x-4 border-y-4 rounded-full border-yellow-300 font-bold">
               50+
             </div>
             <div className="text-black font-semibold text-xs md:text-sm">
