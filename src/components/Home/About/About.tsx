@@ -92,13 +92,21 @@ const About = () => {
           )}
           {activeTab === "contact" && (
             <>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold">
-            GET IN TOUCH WITH US
-            </h2>
-            <p className="text-black text-sm md:text-base">
-            Whether you have a question, need assistance with your reservation, or want to share your feedback, we are here to help! Our team is dedicated to ensuring your experience is nothing short of exceptional. We encourage you to reach out for any inquiries or concerns you may have, and we'll respond promptly. Visit us, call us, or connect with us online – we’re always ready to assist you. Your satisfaction is our priority, and we look forward to hearing from you!
-            </p>
-          </>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold">
+                GET IN TOUCH WITH US
+              </h2>
+              <p className="text-black text-sm md:text-base">
+                Whether you have a question, need assistance with your
+                reservation, or want to share your feedback, we are here to
+                help! Our team is dedicated to ensuring your experience is
+                nothing short of exceptional. We encourage you to reach out for
+                any inquiries or concerns you may have, and we'll respond
+                promptly. Visit us, call us, or connect with us online – we’re
+                always ready to assist you. Your satisfaction is our priority,
+                and we look forward to hearing from you! Contact us today and
+                let’s make great things happen together!
+              </p>
+            </>
           )}
 
           {/* About Button and Contact Info */}

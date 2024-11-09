@@ -1,7 +1,17 @@
 import React from "react";
 import assets from "../../../assets";
+import Slider from "react-slick";
 
 const PopularFood = () => {
+  const settings = {
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 3000,
+  };
+
   return (
     <div>
       {/* Popular Food Items */}
@@ -31,67 +41,138 @@ const PopularFood = () => {
           </div>
 
           {/* Food Items Section */}
-          <div className="food-items grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
-            {/* Food Item Card */}
-            <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
-              <img
-                src={assets.images.f1}
-                alt="Vegetables Burger"
-                className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
-              />
-              <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
-              <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
-                VEGETABLES BURGER
-              </h3>
-              <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
-                Barbecue Italian cuisine pizza
-              </p>
-            </div>
 
-            <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
-              <img
-                src={assets.images.f2}
-                alt="Special Pizza"
-                className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
-              />
-              <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
-              <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
-                SPECIAL PIZZA
-              </h3>
-              <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
-                Barbecue Italian cuisine pizza
-              </p>
-            </div>
+          <div className="slider-container">
+            <Slider {...settings}>
+              <div>
+                <div className="food-items grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
+                  {/* Food Item Card */}
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.f1}
+                      alt="Vegetables Burger"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      VEGETABLES BURGER
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Barbecue Italian cuisine pizza
+                    </p>
+                  </div>
 
-            <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
-              <img
-                src={assets.images.f3}
-                alt="Special French Fries"
-                className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
-              />
-              <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
-              <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
-                SPECIAL FRENCH FRIES
-              </h3>
-              <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
-                Barbecue Italian cuisine
-              </p>
-            </div>
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.f2}
+                      alt="Special Pizza"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      SPECIAL PIZZA
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Barbecue Italian cuisine pizza
+                    </p>
+                  </div>
 
-            <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
-              <img
-                src={assets.images.f2}
-                alt="Cuisine Chicken"
-                className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
-              />
-              <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
-              <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
-                CUISINE CHICKEN
-              </h3>
-              <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
-                Japanese Cuisine Chicken
-              </p>
-            </div>
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.f3}
+                      alt="Special French Fries"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      SPECIAL FRENCH FRIES
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Barbecue Italian cuisine
+                    </p>
+                  </div>
+
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.f2}
+                      alt="Cuisine Chicken"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      CUISINE CHICKEN
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Japanese Cuisine Chicken
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="food-items grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
+                  {/* Food Item Card */}
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.fish}
+                      alt="Vegetables Burger"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      VEGETABLES BURGER
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Barbecue Italian cuisine pizza
+                    </p>
+                  </div>
+
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.cake}
+                      alt="Special Pizza"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      SPECIAL PIZZA
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Barbecue Italian cuisine pizza
+                    </p>
+                  </div>
+
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.burger}
+                      alt="Special French Fries"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      SPECIAL FRENCH FRIES
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Barbecue Italian cuisine
+                    </p>
+                  </div>
+
+                  <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
+                    <img
+                      src={assets.images.f2}
+                      alt="Cuisine Chicken"
+                      className="w-20 h-20 lg:w-28 lg:h-28 mb-4"
+                    />
+                    <div className="divider w-14 h-1 bg-[#d82e2f] mx-auto my-3"></div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-[#222] font-['Bebas_Neue']">
+                      CUISINE CHICKEN
+                    </h3>
+                    <p className="text-[#555] text-sm lg:text-base font-normal leading-8 tracking-tight mt-1">
+                      Japanese Cuisine Chicken
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Slider>
           </div>
         </section>
       </div>

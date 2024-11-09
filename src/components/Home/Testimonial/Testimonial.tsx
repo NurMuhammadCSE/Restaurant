@@ -122,9 +122,9 @@ const Testimonial = () => {
                     <img src={assets.images.quotation} alt="" />
                     <p>
                       This burger delivers everything you'd want from a classic
-                      cheeseburger experience. The perfectly seasoned,
-                      juicy, and cooked to a nice medium, with a subtle char
-                      that adds a smoky depth to each bite.
+                      cheeseburger experience. The perfectly seasoned, juicy,
+                      and cooked to a nice medium, with a subtle char that adds
+                      a smoky depth to each bite.
                     </p>
                   </p>
                   <div className="flex items-center justify-between mt-28 md:mt-32 gap-4">
