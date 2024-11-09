@@ -16,7 +16,7 @@ const PopularFood = () => {
     <div>
       {/* Popular Food Items */}
       <div className="bg-[#fbf7f2]">
-        <section className="p-5 lg:p-28 h-[710px] font-sans w-full max-w-7xl px-4 lg:px-8 py-8 lg:py-16 mx-auto">
+        <section className="p-5 lg:p-28 h-auto font-sans w-full max-w-7xl px-4 lg:px-8 py-8 lg:py-16 mx-auto">
           {/* Section Header */}
           <div className="flex flex-col lg:flex-row justify-between items-center mb-10 lg:mb-20 gap-5 lg:gap-0">
             {/* Left Content: Header Text */}
@@ -41,11 +41,10 @@ const PopularFood = () => {
           </div>
 
           {/* Food Items Section */}
-
           <div className="slider-container">
             <Slider {...settings}>
               <div>
-                <div className="food-items grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
+                <div className="food-items grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto">
                   {/* Food Item Card */}
                   <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
                     <img
@@ -109,7 +108,7 @@ const PopularFood = () => {
                 </div>
               </div>
               <div>
-                <div className="food-items grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
+                <div className="food-items grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto">
                   {/* Food Item Card */}
                   <div className="food-item bg-white w-full h-[300px] p-8 shadow-lg rounded-lg text-center flex flex-col items-center">
                     <img

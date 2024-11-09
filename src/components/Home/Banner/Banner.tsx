@@ -10,11 +10,11 @@ const Banner = () => {
           <div className="flex md:w-1/2 flex-col gap-4 z-10 md:text-left">
             {/* Headline Text */}
             <h1
-              className="text-white absolute -pb-[300px] text-4xl sm:text-5xl md:text-6xl lg:text-[80px] font-bold leading-tight md:leading-[100px] tracking-tight"
+              className="text-transparent bg-clip-text absolute text-4xl sm:text-5xl md:text-6xl lg:text-[80px] font-bold leading-tight md:leading-[100px] tracking-tight"
               style={{
+                color:"white",
                 background:
                   "linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%)",
-                WebkitBackgroundClip: "text", // For Safari support
               }}
             >
               TASTE THE AUTHENTIC <br className="hidden md:block" />
